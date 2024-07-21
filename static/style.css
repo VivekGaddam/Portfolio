@@ -1,0 +1,158 @@
+body {
+    background-color: rgb(5, 5, 62);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 15px;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(1, 1, 30);
+    height: 80px;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    
+}
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(151, 151, 151);
+}
+.left {
+    font-size: 2rem;
+}
+.left:hover {
+    color: rgb(151, 151, 151);
+
+}
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+}
+.leftSection, .rightSection {
+    width: 45%;
+}
+.leftSection {
+    padding: 80px;
+    margin: 40px;
+    font-size: 3rem;
+    
+}
+.rightSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightSection img {
+  max-width: 100%;
+  height: 451px;
+  border-radius: 10px;
+}
+.name{
+    color: blueviolet;
+}
+.secondSection{
+    font-family: 'Poppins', sans-serif;
+}
+.secondSection h1{
+    text-align: center;
+    font-size: 3rem;
+    margin: auto;
+    padding: auto;
+}
+.secondSection p{
+    margin: 40px;
+    font-size: 20px;
+}
+.section_division{
+    display: flex;
+    justify-content: space-around;
+
+}
+.leftSection_1, .rightSection_1 {
+    width: 45%;
+}
+.section_division .divider {
+    border-left: white;
+    height: 959px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 1292px;
+  }
+.divider {
+    width: 1px;
+    height: 100%;
+    background-color: #707077;
+    align-self: stretch;
+}  
+.leftSection_1 img{
+    height: 50px;
+    font-size: 60px;
+}
+
+
+.web_list ul{
+    display: flex;
+    justify-content: space-around;    
+}
+.web_list ul li {
+    list-style: none;
+    margin: 0 23px;
+    
+}
+.web_list .Title {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.datasci_list ul{
+    display: flex;
+    justify-content: space-around;  
+}
+.datasci_list ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+.datasci_list .Title {
+    display: block;
+    text-align: center;
+    margin-top: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.leftSection_1 ul{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+.leftSection_1 img {
+    height: 70px;
+    font-size: 70px;
+  }
+.rightSection h1{
+
+    text-align: center;
+    font-size: 2rem;
+    margin: auto;
+    padding: auto;
+}
